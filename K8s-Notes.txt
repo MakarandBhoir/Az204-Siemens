@@ -17,3 +17,9 @@ Without services, pods are very hard to reach and communication is difficult. Re
   kubectl scale deployment/first-app --replicas=3
   kubectl get pods
 
+5. To attach AKS with azure container registry
+az aks update -n <aks-cluster-name> -g <resource-group-name> --attach-acr <acr-name>
+
+
+
+
